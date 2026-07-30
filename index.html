@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tetris</title>
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/logo.png">
+</head>
+<body style="display: flex; justify-content: center;">
+	<div class="left">
+		<div class="held-shape-text">HELD SHAPE</div>
+		<canvas id="held-shape-canvas" style="height: 240px; width: 240px"></canvas>
+	</div>
+	<canvas id="canvas"></canvas>
+	<div class="right">
+		<div class="next-shape-text">NEXT SHAPE</div>
+		<canvas id="next-shape-canvas" style="height: 240px; width: 240px"></canvas>
+		<div class="level-board">LEVEL: 1</div>
+		<div class="lines-cleared">LINES: 0</div>
+		<div class="score-board">SCORE: 0</div>
+	</div>
+</body>
+</html>

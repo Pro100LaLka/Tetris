@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.right { 
+	margin-left: 3px;
+}
+.left {
+	margin-right: 3px;
+}
+.right div, .left div {
+  color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	width: 240px;
+	height: 30px;
+	margin: 5px 10px;
+}
+.right div:first-child, .left div:first-child {
+	font-size: 30px;
+	margin: 5px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
