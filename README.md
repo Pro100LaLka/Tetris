@@ -1,3 +1,5 @@
+https://pro100lalka.github.io/Tetris/
+
 # Тетрис
 
 Классическая игра «Тетрис» на чистом JavaScript с использованием Canvas.
